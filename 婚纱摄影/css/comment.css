@@ -1,0 +1,151 @@
+.contact{
+	width:100%;
+	height:100%;
+	background-color: #fff;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+.contact_mian{
+	width:1335px;
+	height:1180px;
+	margin:0 auto;
+	/*border:1px solid red;*/
+}
+.contact_mian_one{
+	position: relative;
+	width:100%;
+	height:118px;
+    line-height: 118px;
+}
+.contact_mian_one .red_radiu{
+	position: absolute;
+	top:52px;
+	display: inline-block;
+    width:14px;
+    height:14px;
+    background-color: #D91D36;
+    border-radius: 50%;
+}
+.contact_mian_one h1{
+	position: absolute;
+	height:26px;
+	left:34px;
+}
+.contact_mian_tow{
+	width:100%;
+	height:534px;
+}
+.contact_mian_three{
+	width:100%;
+	height:526px;
+	background-color: #E9E9E9;
+}
+.contact_th_left{
+	float: left;
+	width:508px;
+	height:100%;
+	padding-left: 40px;
+	background-color: #E9E9E9;
+}
+.contact_h2{
+	height:100px;
+	line-height: 100px;
+	font-size: 28px;
+}
+.contact_phone{
+	position: relative;
+	width:100%;
+	height:148px;
+	border-top: 2px solid #D91D36;
+	border-bottom:2px solid #D91D36;
+}
+.contact_phone img{
+	position: absolute;
+	top:40%;
+}
+.phone_numb{
+	position: absolute;
+	top:20%;
+	left:50px;
+	display: block;
+	height: 148px;
+	width: 100%;
+	font-size: 80px;
+	color:#D91D36;
+}
+.phone_btm{
+	width: 100%;
+	height:280px;
+    /*background: red;*/
+    font-size: 26px;
+    color:#000;
+}
+.phone_btm ul{
+	width: 100%;
+	height:280px;
+	padding-top: 10px;
+}
+.phone_btm ul li{
+	position: relative;
+	left:5px;
+	width:100%;
+	height:30px;
+	margin:20px 0;
+	font-size:30px;
+}
+.phone_btm ul li span{
+	position: absolute;
+	display: inline-block;
+	width:14px;
+	height:14px;
+	top: 8px;
+	border-radius: 50%;
+	background-color:#D91D36;
+}
+.phone_btm ul li p{
+	position: absolute;
+	left:30px;
+}
+.contact_th_right{
+	position: relative;
+    float:right;
+    width:626px;
+    height:526px;
+    /*border:1px solid red;*/
+}
+.dizhi{
+	width:514px;
+    height:90px;
+    border-bottom:2px solid gray;
+    margin-left: 0;
+}
+.shoot{
+	width:626px;
+	height:213px;
+	font-size: 28px;
+	padding-top: 20px;
+}
+.shoot dt{
+	width:600px;
+	height:36px;
+	margin-left: 0px;
+}
+.shoot dd{
+	line-height: 50px;
+}
+.last_li{
+	width:514px;
+	border-bottom: 2px solid gray;
+	margin-left: 0;
+	height:60px;
+}
+.denglu{
+    position: absolute;
+    bottom:89px;
+    width:350px;
+    height:90px;
+}
+.denglu a{
+	display: inline-block;
+	margin-right: 20px;
+}

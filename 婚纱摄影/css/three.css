@@ -1,0 +1,115 @@
+/*图一开始 */
+.center_open1{
+	width: 100%;
+	height: 750px;
+	/*border:1px solid red;*/
+}
+.gyx_centerpic1{
+	width: 1336px;
+	height: 750px;
+	/*border:1px solid red;*/
+	margin:auto;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.gyx_centerpic1 p{
+	font-size: 100px;
+	color: #ff5d50;
+	text-align: center;
+	font-weight: bolder;
+	font-family: serif;
+	z-index: 999;
+	margin-top: 50px;
+}
+.gyx_centerpic1 img{
+	margin-top: 45px;
+}
+/*图一结束*/
+/*文字开始 */
+.center_open2{
+	width: 100%;
+	height: 242px;
+	/*border:1px solid red;*/
+}
+.gyx_wenzi1{
+	width: 1336px;
+	height: 210px;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	margin-top: 32px;
+}
+.gyx_wenzi1 .wenzi1_img1{
+	margin: 0 auto;
+}
+.gyx_wenzi1 .wenzi1_img2{
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.gyx_wenzi1 p{
+	text-align: center;
+	font-family: 'SimSun','MongolianBaiti';
+	font-size: 16px;
+	color: #666;
+}
+.gyx_wenzi1 .gyx_p{
+	margin-top: 32px;
+}
+.gyx_wenzi1 .gyx_p1{
+	margin-top: 10px;
+}
+ /*文字结束*/
+ /*图二开始*/
+ .center_open3{
+	width: 100%;
+	height: 540px;
+	/*border:1px solid red;*/
+	margin-top: 60px;
+}
+ .gyx_centerpic2{
+ 	width: 1336px;
+ 	height: 540px;
+ 	margin:0 auto;
+ /*	border:1px solid red;*/
+ }
+ /*图二结束*/
+ /*文字开始 */
+ .center_open4{
+	width: 100%;
+	height: 110px;
+	/*border:1px solid red;*/
+	margin-top: 32px;
+}
+.gyx_wenzi2{
+	width: 1336px;
+	height: 110px;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+
+}
+.gyx_wenzi2 .wenzi1_img1{
+	margin: 0 auto;
+}
+.gyx_wenzi2 .wenzi1_img2{
+	margin-top: 20px;
+	margin: 0 auto;
+}
+.gyx_wenzi2 p{
+	text-align: center;
+	font-family: 'SimSun','MongolianBaiti';
+	font-size: 16px;
+	color: #666;
+}
+.gyx_wenzi2 .gyx_p{
+	margin-top: 32px;
+}
+.gyx_wenzi2 .gyx_p1{
+	margin-top: 10px;
+}
+ /*文字结束*/
+ /*图五开始*/
+ .gyx_centerpic3{
+ 	padding-bottom: 150px;
+ /*	border:1px solid red;*/
+ }
+ /*图五结束*/

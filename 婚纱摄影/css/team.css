@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.team_all{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.show{
+	width: 1920px;
+	height: 445px;
+	text-align: center;
+	margin: 0 auto;
+}
+.big_logo{
+	width: 470px;
+	height: 66px;
+	margin: 68px auto 66px;
+}
+.show p{
+	font-size: 50px;
+	color: #d91d36;
+}
+.show span{
+	display: block;
+	margin-top: 30px;
+	font-size: 26px;
+	color: #333;
+}
+.little_logo{
+	width: 542px;
+	height: 36px;
+	margin: 31px auto 72px;
+}
+.place_all{
+	width: 100%;
+	height: 416px;
+	background-color: #e9e9e9;
+}
+.move{
+	width: 432px;
+	height: 16px;
+	float: left;
+	background-color: #d91c36;
+    display: none;
+} 
+.kuai{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #d91c36;
+	position: relative;
+	top: -6px;
+}
+.place{
+	margin: 0 auto;
+	width: 1360px;
+	position: relative;	
+}
+.design{
+	background-color:#fff; 
+	width: 434px;
+	height: 416px;
+	/*margin-top: 50px;*/
+	text-align: center;
+	box-shadow:0 20px 30px #e9e9e9; 
+	overflow: hidden;
+	position: relative;
+	left: -434px;
+	top: 50px;
+}
+.design .move::before{
+ 			content:"设计总监";
+			color:white;
+			text-align: center;
+			line-height: 258px;
+			position: absolute;
+			width:434px;
+			height: 416px;
+			background-color: black;
+			top: 434px;
+			left: 0;
+			opacity: 0.5;
+			transition:all 0.4s ease 0s;
+		}
+.design .move:hover::before{
+			top:0;
+		}
+.design_one{
+	margin: 74px 0 46px 0;
+}
+.design_two{
+	margin-bottom:46px; 
+}
+.place p{
+	font-size: 24px;
+	color: #333;
+}
+.place span{
+	display: block;
+	width: 220px;
+	height: 70px;	
+	font-size: 14px;
+	color: #666;
+	margin: 32px 0 0 107px;
+}
+
+.outside{
+	background-color:#fff; 
+	width: 434px;
+	height: 416px;
+	margin: 50px 0 0 20px;
+	text-align: center;
+	box-shadow:0 20px 30px #e9e9e9; 
+	position: relative;
+	left: 464px;
+	top:-416px;
+	overflow: hidden;
+}
+.outside .move::before{
+ 			content:"室外";
+			color:white;
+			text-align: center;
+			line-height: 258px;
+			position: absolute;
+			width:434px;
+			height: 416px;
+			background-color: black;
+			top: 434px;
+			left: 0;
+			opacity: 0.5;
+			transition:all 0.4s ease 0s;
+		}
+.outside .move:hover::before{
+			top:0;
+		}
+.oversea{
+	background-color:#fff; 
+	width: 434px;
+	height: 416px;
+	margin: 50px 0 0 20px;
+	text-align: center;
+	box-shadow:0 20px 30px #e9e9e9; 
+	position: relative;
+	left: 908px;
+	top: -882px;
+	overflow: hidden;
+}
+.oversea .move::before{
+ 			content:"海外";
+			color:white;
+			text-align: center;
+			line-height: 258px;
+			position: absolute;
+			width:434px;
+			height: 416px;
+			background-color: black;
+			top: 434px;
+			left: 0;
+			opacity: 0.5;
+			transition:all 0.4s ease 0s;
+		}
+.oversea .move:hover::before{
+			top:0;
+		}
+.place span.protect{
+	display: block;
+	width: 275px;
+	height: 20px;
+	margin-left:79.5px;
+}
+.kong{
+	width: 1920px;
+	height: 35px;
+	/*float: left;*/
+	
+}
+.star_all{
+	width: 100%;
+	height: 2133px;
+}
+.star{
+	width: 1920px;
+	height: 109px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+}
+.star_logo{
+	margin-bottom: 20px;
+}
+.star{
+	margin-bottom: 80px;
+}
+.sir{
+	width:1342px;
+	height: 462px; 
+	margin: 0 auto;
+	position: relative;
+}
+.wang{
+	width:1342px;
+	height: 462px; 
+	margin: 0 auto;
+	position: relative;
+}
+.david{
+	width:1342px;
+	height: 612px; 
+	margin: 0 auto;
+	position: relative;
+    
+}
+.imgs{
+	width: 924px;
+	height: 462px;
+	float: left;
+	margin-right: 20px;
+}
+.images{
+	width: 924px;
+	height: 462px;
+	float: left;
+	margin-left: 20px;
+}
+.img_one{
+	position:absolute;
+	top: 0px; 
+}
+.relate_sir{
+	width: 398px;
+	height: 460px;
+	float: left;
+	background-color: #e9e9e9;
+	margin-top: 1px;
+	text-align: center;
+}
+.img_two{
+	margin-top: 44px;
+}
+.line{
+	display: block;
+	width: 334px;
+	height: 25px;
+	background-color: #e9e9e9;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	margin: 0 0 24px 40px;
+}
+.big_tittle{
+	display: block;
+	float: left;
+	width: 334px;
+	margin-left: 32px;
+	height: 24px;
+    font-size: 24px;
+    color: #333;
+}
+.little_tittle{
+	font-size: 14px;
+	text-align: left;
+	color: #666;
+	display: block;
+	float: left;
+	width: 334px;
+	height: 141px;
+	margin: 50px 0 0 40px;
+}
+.btn{
+	width: 180px;
+	height: 60px;
+	float: right;
+	margin: 0 26px 28px 192px;
+	background-color: #d91c36;
+	font-size: 26px;
+	line-height: 60px;
+	border-radius: 8px;
+}
+.btn a{
+	text-decoration: none;
+	color: #fff;
+}

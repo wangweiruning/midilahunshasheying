@@ -1,0 +1,323 @@
+.metrora{
+         width: 100%;
+         height:454px; 
+         position: relative;
+}
+.metrora_box{
+	         width: 1336px;
+	         height: 305px;
+	         text-align: center;
+	         /*border: 1px solid green;*/
+	         position: absolute;
+	         top: 68px;
+	         right: 0;
+	         left: 0;
+}
+.metrora_box .img{
+	              height: 66px;
+	              width: 470px;
+                  margin: 0 auto;
+ 	              position: absolute;
+	              top: 0;
+	              right: 0;
+	              left: 0;                 
+}
+.metrora_box .p{
+	           margin-top: 132px;
+	           height: 50px;
+	           line-height: 50px;
+	           width: 470px;
+	           font-size: 50px;
+	           color: #d91d36	            	           
+}
+.metrora_box .nation_name{
+	                      margin-top: 30px;
+}
+.metrora_box .Eng_name{
+	                   font-family: Aparajita,MicrosoftYaHei;
+	                   font-size: 26px;
+	                   color: #333333;
+}
+.metrora_box .Cha_name{
+	                   font-family: 微软雅黑;
+	                   font-size: 26px;
+	                   color: #333333;	
+}
+.metrora_box .img_mid{
+	                  width: 542px;
+	                  height: 36px;
+	                  margin-top: 31px;
+}
+
+
+
+.door{
+	  height: 400px;
+	  width: 100%;
+	  background-color: #e9e9e9;
+}
+.door_all{
+		  height: 400px;
+	      width: 1342px;
+	      position: relative;  
+	      /*border: 1px solid green;*/    
+}
+.door_all ul {
+	          list-style-type: none;
+}
+.door_all ul li{
+	            margin-top: 50px;
+	            text-align: center;
+	            height: 400px;
+	            width: 434px;
+	            float: left;
+	            position: relative;
+	            background-color: #fff;
+	            box-shadow: 0 0 30px 0 #ededed; 
+	            /*border: 1px solid red;*/
+}
+.door_all ul .ulli2{
+	                margin-left: 20px;
+	                margin-right: 20px;
+}
+.door_all ul li .img{
+	                margin-top: 74px;
+	                height: 76px;
+	                width: 68px;
+}
+.door_all ul li p{
+	               /*font-family: MicrosoftYaHei;*/
+	               margin-top: 46px;
+	               font-size: 24px;
+	               color: #333333;
+}
+.door_all ul li span{
+	                 margin-top: 32px;
+	                 font-size: 14px;
+	                 color: #666666;
+	                 text-align: center;
+	                 display: inline-block;
+	                 width: 200px;
+}
+.door_all ul li .mpng{
+	                  height: 17px;
+	                  width: 93px;
+	                  margin: 0 auto;
+	                  position: absolute;
+	                  bottom: 46px;
+	                  right: 0;
+	                  left: 0;
+}
+.move{
+	width: 432px;
+	height: 16px;
+	background-color: #d91c36;
+    display: none;
+    position: absolute;
+	bottom: 0;
+}
+.kuai{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #d91c36;
+	margin: auto;
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	right: 0;
+}
+
+
+
+
+
+.meteala{
+	     height: 300px;
+	     width: 100%;
+	     position: relative;
+}
+.meteala_box{
+	         height: 109px;	        
+	         width: 1342px;
+	         margin: 0 auto;
+	         position: absolute;
+	         right: 0;
+	         left: 0;
+	         top: 110px;
+	         /*border: 1px solid red;*/
+}
+.meteala_box .mid1_png{
+	         height: 53px;
+	         width: 47px;
+	         margin: 0 auto;
+	         position: absolute;
+	         right: 0;
+	         left: 0;	                   
+}
+.meteala_box .img_mid4{
+	         height: 36px;
+	         width: 542px;
+	         margin: 0 auto;
+	         position: absolute;
+	         bottom: 0px;
+	         right: 0;
+	         left: 0;		
+}
+
+
+
+/*长城*/
+.Great_Wall{
+	        height: 462px;
+	        width: 100%;
+}
+.Great_box{
+		    height: 462px;
+	        width: 1342px;
+	        position: relative;
+	        /*border: 1px solid red;*/ 
+}
+.Great_box img{
+	           height: 462px;
+	           width: 924px;
+}
+.Great_rou{
+           float: right;
+           height: 460px;
+           width: 398px;
+           background-color: #e9e9e9;
+           position: relative;
+}
+.Great_rou .span{
+	             display: inline-block;
+	             width: 344px;
+                 height: 460px;
+                 margin: 0 auto; 
+                 position: absolute;
+                 right: 0;
+                 left: 0;
+                 top: 0;                
+}
+.Great_name{
+	        margin-top: 34px;
+	        font-size: 24px;
+	        color: #333333;
+	        padding-bottom: 30px;
+	        border-bottom: 1px solid #dddddd;
+}
+.Great_desc{
+	        margin-top: 30px;
+	        font-size: 14px;
+	        color: #666666;	
+	        width: 344px;        
+}
+.Great_rou #btn{
+	            height: 60px;
+	            width: 180px;
+	            font-size: 26px;
+	            color: #ffffff;
+	            border-radius: 6px;
+	            border: none;
+	            background-color: red;
+	            position: absolute;
+	            bottom: 28px;
+	            left: 162px;
+}
+
+
+
+.meteala_all{
+	     height: 240px;
+	     width: 100%;
+	     position: relative;
+}
+.meteal_box{
+	         height: 109px;	        
+	         width: 1342px;
+	         /*border: 1px solid red;*/
+	         position: relative;
+	         top: 60px;
+}
+.meteal_box .mid1_png{
+	         height: 53px;
+	         width: 47px;
+	         margin: 0 auto;
+	         position: absolute;
+             top: 0;
+             right: 0;
+             left: 0;
+}
+.meteal_box .img_mid4{
+	         height: 36px;
+	         width: 542px;
+	         margin: 0 auto;
+	         position: absolute;
+             bottom: 0;
+             right: 0;
+             left: 0;	         		
+}
+
+
+
+.bei_Wall{
+	        height: 462px;
+	        width: 100%;
+}
+.art_box{
+		    height: 462px;
+	        width: 1342px;
+	        position: relative;
+	        /*border: 1px solid red;*/ 
+}
+.art_box img{
+	           float: right;
+	           height: 462px;
+	           width: 924px;
+}
+.art_rou{
+           float:left;
+           height: 460px;
+           width: 398px;
+           background-color: #e9e9e9;
+           position: relative;
+}
+.art_rou .span{
+	             display: inline-block;
+	             width: 344px;
+                 height: 460px;
+                 margin: 0 auto; 
+                 position: absolute;
+                 right: 0;
+                 left: 0;
+                 top: 0;                
+}
+.art_name{
+	        margin-top: 34px;
+	        font-size: 24px;
+	        color: #333333;
+	        padding-bottom: 30px;
+	        border-bottom: 1px solid #dddddd;
+}
+.art_desc{
+	        margin-top: 30px;
+	        font-size: 14px;
+	        color: #666666;	
+	        width: 344px;        
+}
+.art_rou #btn{
+	            height: 60px;
+	            width: 180px;
+	            font-size: 26px;
+	            color: #ffffff;
+	            border-radius: 6px;
+	            border: none;
+	            background-color: red;
+	            position: absolute;
+	            bottom: 28px;
+	            right: 162px;
+}
+.clear{
+	   height: 150px;
+	   width: 100%;
+}

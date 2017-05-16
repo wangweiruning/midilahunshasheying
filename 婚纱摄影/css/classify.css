@@ -1,0 +1,234 @@
+.big_img{
+	     height: 538px;
+}
+.logo_me{
+	     height: 300px;
+	     width: 100%;
+}
+.logo_Me{
+	     height: 180px;
+	     width: 1342px;
+	     /*border: 1px solid red;*/
+	     position: relative;
+	     text-align: center;
+	     top: 36px;
+}
+.logo_midila1{
+	          margin: 0 auto;
+	          position: absolute;
+	          top:0;
+	          left: 0;
+	          right: 0;
+	          width: 48px;
+	          height: 54px;
+}
+.logo_midilaxiao{
+	          margin: 0 auto;
+	          position: absolute;
+	          top:74px;
+	          left: 0;
+	          right: 0;
+	          width:542px;
+	          height: 36px; 	           
+}
+.logo_Me p{
+	       display: inline-block;
+	       font-size: 16px;
+	       color: #666666;
+	       width: 685px;
+	       height: 40px;
+	       margin: 0 auto;
+	       position: absolute;
+	       left: 0;
+	       right: 0;
+	       bottom: 0;
+}
+
+
+
+
+#fashion{
+	     height:1208px;
+	     width:100%;	
+}
+#fashion_box{
+	     height:1204px;
+	     width:1336px;
+	     /*border: 1px solid red;*/
+}
+#fashion_box ul{
+                list-style-type: none;
+}
+.ulli{
+	  height: 562px;
+	  width: 392px;
+	  float: left;
+	  text-align: center;
+	  /*border: 1px solid red;*/
+	  background-color: #f2f6f7;
+}
+.images{
+	    height: 402px;
+	    width: 392px;
+}
+.site_P{
+        margin-top: 16px;
+        font-size: 18px;
+        color: #d91d36;
+        font-weight: bold;
+}
+.xing_p{
+	    margin-top: 5px;
+	    font-size: 14px;
+	    color: #666666;
+}
+.money_p{
+	    margin-top: 6px;
+	    font-size: 50px;
+	    color: #d91d36;	
+	    font-family: MicrosoftYaHei;     
+}
+
+
+
+.logo_meta{
+	       height: 260px;
+	       width: 100%;
+	       margin: 0 auto;
+}
+.logo_meta_box{
+	          height: 260px;
+	          width: 1336px;
+	          /*border: 1px solid red;*/
+	          margin: 0 auto;
+	          position: relative;
+}
+.logo_meta_box .img1{
+	                 margin: 0 auto;
+                     position: absolute;
+                     top:50px;
+                     left: 0;                     
+                     right: 0;
+}
+.logo_meta_box .img2{
+	                 margin: 0 auto;
+                     position: absolute;
+                     top:120px;
+                     right: 0;
+                     left: 0;
+}
+
+
+
+
+.phone_we{
+	      height: 390px;
+	      width: 100%;
+	      margin-top: 118px;
+	      margin-bottom: 150px;
+}
+.phone_we_box{
+	           height: 390px;
+	           width: 1336px;
+}
+#system{
+	    height: 390px;
+	    width: 646px;
+	    position: relative;
+	    float: left;
+	    /*border: 1px solid red;*/
+}
+#map{
+	    height: 290px;
+	    width: 650px;
+	    position: relative;
+	    float: right;
+	    top: 100px;	
+	   /* border: 1px solid red; */
+	    box-shadow: 1px 1px 20px 10px #777; 
+}
+#map img{
+	     margin-top: 100px;
+	     width: 650px;
+	     height: 290px;	
+	     /*box-shadow: 1px 1px 20px 1px #555;  */   
+}
+#system_btn{
+	        width: 240px;
+	        height: 80px;
+	        background-color: #d91d36;
+	        color: #fff;
+	        border-radius: 6px;
+	        border: 0;
+	        box-shadow: 1px 1px 20px 1px #555;
+	        font-size: 30px;
+}
+#system #name{
+	          height: 54px;
+	          width: 310px;
+	          border: 0;
+	          float: left;
+	          border-radius: 6px;
+	          margin-top: 20px;
+	          margin-right: 20px;
+	          background-color: #e9e9e9;
+	          font-size: 24px;
+	          font-family: MicrosoftYaHei;	          
+}
+#system #name.green_color{
+	        border:1px solid green;   
+}
+#system #name.red_color{
+	       border:1px solid red; 
+}
+#system #aeg{
+	          height: 54px;
+	          width: 310px;
+	          border: 0;
+	          float: left;
+	          border-radius: 6px;
+	          margin-top: 20px;
+	          background-color: #e9e9e9;
+	          font-size: 24px;
+	          font-family: MicrosoftYaHei;	          
+}
+#system #aeg.green_color{
+	       border:1px solid green;
+}
+#system #aeg.red_color{
+	       border:1px solid red;
+}
+#aspiration{
+	          height: 140px;
+	          width: 640px;
+	          border: 0;
+	          border-radius: 6px;
+	          margin-top: 20px;
+	          background-color: #e9e9e9;
+	          font-size: 24px;
+	          font-family: MicrosoftYaHei;	          	        
+}
+#system #submit{
+	          height: 54px;
+	          width: 640px;
+	          border: 0;
+	          border-radius: 6px;
+	          margin-top: 20px;
+	          font-size: 24px;
+	          font-family: MicrosoftYaHei;
+	          background-color: #d91d36;
+	          color: #fff;	
+}
+/*<!-- 米迪拉摄影 -->*/
+.special{
+	     height: 900px;
+	     width: 100%;
+}
+#special_box{
+	     height: 900px;
+	     width: 1340px;
+	     position: relative;
+	     border: 1px solid red;
+}
+/*<!-- 米迪拉摄影结束 -->*/
+
