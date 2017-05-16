@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.team_all{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.big_all{
+	width: 100%;
+	height: 445px;
+}
+.big_img{
+	width: 1920px;
+}
+.icon_all{
+	width: 100%;
+	height: 304px;
+}
+.icon{
+	width: 340px;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.icon_one{
+	margin: 50px 0 40px 0;
+}
+.shoot_all{
+	width: 100%;
+	height: 892px;
+}
+.shoot{
+	width: 1270px;
+	position: relative;
+	margin:0 auto;
+}
+.shoot img{
+	margin:50px 69px;  
+}
+.shoot p{
+    font-size: 26px;
+    color: #D91D36;
+}
+.picture{
+	width: 1270px;
+	height: 680px;
+	float: left;
+	margin-top: 64px;
+}
+.picture_one{
+	width: 358px;
+	height: 680px;
+	float: left;
+}
+.picture_two{
+	width: 358px;
+	height: 680px;
+	float: left;
+	margin-left: 98px;
+}
+.picture_three{
+	width: 358px;
+	height: 680px;
+	float: left;
+	margin-left: 98px;
+}
+.print{
+	background-color: #e9e9e9;
+	width: 358px;
+	height: 320px;
+	float: left;
+	margin-bottom: 78px;
+}
+.text{
+	width: 358px;
+	height: 160px;
+	float: left;
+	font-size: 20px;
+	color: #333;
+}
+.middle_all{
+    width: 100%;
+    height: 550px;
+    background-color: #e9e9e9;
+}
+.middle{
+	width: 1336px;
+	position: relative;
+	margin:0 auto;
+}
+.big_two{
+	float: left;
+	margin-right: 20px;
+}
+.big_one{
+	position: absolute;
+	top: -40px;
+}
+.kong_2{
+	width: 1920px;
+    height: 150px;
+}
+.narrate_all{
+	width: 100%;
+	height: 1950px;	
+}
+.narrate_all .narrate{
+	width: 1336px;
+	height: 1800px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #333;
+}
+.photo{
+    width: 1256px;
+    height: 359px;
+    float: left;
+    margin-left:40px;
+    border-bottom: 1px solid #e9e9e9;
+    position: relative; 
+    
+}
+.tu{
+	margin:117px 0 0 48px;
+	float: left;
+}
+.wenzi{
+	width: 986px;
+	height: 240px;
+	float: left;
+	position: absolute;
+	top:120px;
+	left: 270px;
+	font-family: "微软雅黑";
+}
+.zi_one{
+	font-size: 24px;
+	color: #fdfdfd;
+	display: block;
+	width: 986px;
+	height: 24px;
+	margin-bottom:30px;
+}
+.zi_two{
+	font-size: 20.5px;
+	color: #fdfdfd;
+	display: block;
+	width: 986px;
+	height: 175px;
+	line-height: 28.5px;
+}
