@@ -1,0 +1,274 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>米迪拉婚纱摄影</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/online_buy.css">
+    <style type="text/css">
+    form .green_color{
+        border:1px solid green;
+      }
+    form .red_color{
+        border:1px solid red;
+      }
+    #selectYear{
+        display:inline-block;
+        margin-left: 130px;
+        margin-top: 20px;
+      }
+      /*下拉框*/
+    .select-ipt {color:#888888;cursor: pointer;background: url(images/last_pic.png) no-repeat center right;
+    cursor:pointer;width:320px;height: 54px;margin:0px 0px 0px 0px;padding:3px 0px 0px 0px;
+    line-height:54px;font-size:24px;text-align: center;
+    border-radius: 5px;
+    background-color: #fff;}
+    /*样式一：下拉一排一个*/
+    .select-list {border: 1px #ccc solid;width:320px;margin-left:0px;position:absolute;z-index:10000;background:#E9E9E9;}
+    .select-list span{cursor:pointer;display:block;width:100%;height:54px;line-height:54px;padding:0;font-size:20px;text-align: center;color:#666666;}
+    .select-list span:hover{background:#000;color:#fff}
+    .stoping{
+      position: absolute;
+      margin-top: 30px;
+}
+    </style>
+
+</head>
+<body>
+	<!-- 头部开始 -->
+<div class="header">
+	<div class="top">
+		<div class="nav">
+			<span><img src="images/logo_dw.png"></span>
+				<ul>
+                      <li><a href="test.html">首页</a></li>
+                      <li><a href="fenlei.html">分类</a></li>
+                      <li><a href="non_slices.html">客片</a></li>
+                      <li><a href="classify.html">报价</a></li>
+                      <li><a href="video.html">微视频</a></li>
+                      <li><a href="team.html">品牌介绍</a></li>
+                      <li><a href="comment.html">客服</a></li>
+				</ul>
+		</div>
+	</div>
+</div>
+<!-- 头部结束 -->
+<div class="contact">
+     <div class="contact_mian">
+          <div class="contact_mian_one">
+               <span class="red_radiu">
+               </span>
+               <h1>在线订购</h1>
+          </div>
+<!-- 表单开始 -->
+          <div class="begin_cell">
+             <div class="cell_alls">
+                  <form action="xxx.htm" method="post" onsubmit="return allinput()">
+                       <div class="cell_left">
+                            <p>您的名字:</p> <input type="text"  id="useName" onblur="isuseName()">
+                            <img src="images/icon_zhuangshi.png"><br/>
+                            <p>手机号码:</p> <input type="text"  id="int" onblur="ints()"><img src="images/icon_zhuangshi.png"><br/>
+                            <p class="stoping">拍摄套餐:</p> 
+                         <div id="selectYear">
+                            <div class="select-ipt" id="styles" onblur="isstyle()"></div><!--显示框，存放span的innerHTML,相当于option的innerHTML-->
+                            <div style="display: none " class="select-list"><!--下拉框-->
+                              <span id="1">大众模式</span>
+                              <span id="2">普通模式</span>
+                              <span id="3">欧美模式</span> 
+                            </div>
+                            <input type="hidden" /><!--存放span的id，相当于option的value-->
+                        </div><img src="images/icon_zhuangshi.png"><br/>  
+
+<script type="text/javascript" >
+function SelectPullDown(box){
+    this.selectBox = document.getElementById(box);
+    this.selectIpt = document.getElementById(box).getElementsByTagName("input")[0];//传值表单
+    this.selectDivBtn = document.getElementById(box).getElementsByTagName("div")[0];//选中显示框
+    this.selectDivList = document.getElementById(box).getElementsByTagName("div")[1];////下拉框
+    this.selectSpan = document.getElementById(box).getElementsByTagName("span");//选项
+}
+SelectPullDown.prototype ={
+    selectBox : '',//document.getElementById('selectYear').getElementsByTagName("input")[0],
+    selectIpt : '',//document.getElementById('selectYear').getElementsByTagName("input")[0],
+    selectDivBtn : '',//document.getElementById('selectYear').getElementsByTagName("div")[0],
+    selectDivList : '',//document.getElementById(box).getElementsByTagName("div")[1];
+    selectSpan : '',//document.getElementById('selectYear').getElementsByTagName("span"),
+    iptEven : function(){
+        var self = this;
+        this.selectBox.onmouseover = function(){
+            self.selectListShow();
+        }    
+        this.selectBox.onmouseout = function(){
+            self.selectListHide();
+        }
+        return this;    
+    },
+    selectListShow: function(){
+        this.selectDivList.style.display = "block";
+    },
+    selectListHide: function(){
+        this.selectDivList.style.display = "none";
+    },
+    selectPick : function() {
+        var span = this.selectSpan,
+        self = this;
+        function trimStr(str){return str.replace(/(^\s*)|(\s*$)/g,"");}
+        for(var i=0;i<span.length;i++){
+            span[i].onclick = function(){
+                self.selectDivBtn.innerHTML = trimStr(this.innerHTML);
+                self.selectIpt.value= trimStr(this.id);
+                self.selectListHide();
+                //chang事件触发
+                if (self.selectIpt.fireEvent) self.selectIpt.fireEvent('onchange');
+                else{ 
+                    var evt;
+                    evt = document.createEvent("HTMLEvents");  
+                    evt.initEvent("change", true, true);  
+                    self.selectIpt.dispatchEvent(evt);
+                };
+            }
+        }    
+        return this;
+    },
+    init : function(){
+        this.iptEven().selectPick();    
+    }
+};
+//调用方法
+var year = new SelectPullDown('selectYear');
+year.init();
+
+
+</script>
+                            
+                      </div>
+                     <div class="cell_right">
+                            <p>QQ 号码:</p> <input type="text"  id="useQQ" onblur="isQQ()"><img src="images/icon_zhuangshi.png"><br/>
+                            <p>您的邮箱:</p> <input type="email"  id="useEmail"  onblur="isEmail()"> <br/>
+                            <p>拍摄日期:</p>  <input type="date"  class="data_pishe" id="intdate" onblur="isDate()">
+                      </div>
+                      <div class="areas">
+                           <p>您的备注:</p> 
+                           <textarea class="textarea" id="moreText" onblur="moreTst()" placeholder="请输入内容!"></textarea>
+                           <div class="biaozhu">
+                               <p class="zhushi">注：标*为必填项！</p>
+                               <input type="submit" value="提交订单" class="submit">
+                           </div>
+
+                      </div> 
+                  </form> 
+             </div>
+         </div>
+<!-- 表单结束 -->
+     </div>              
+</div>
+<!-- contact部分结束 -->
+<script type="text/javascript">
+// 使用者
+function isuseName(){
+    var obj=document.getElementById("useName");
+    if(/^\W{2,}$/.test(obj.value)){
+       obj.className="green_color";
+       return true;
+    }else{
+   obj.className="red_color";
+   obj.value="";
+       return false;
+
+    }
+}
+// 手机号码
+ function ints(){
+    var obj=document.getElementById("int");
+    if(/^\s*[0-9]{8,11}\s*$/.test(obj.value)){
+       obj.className="green_color";
+       return true;
+    }else{
+   obj.className="red_color";
+   obj.value="";
+       return false;
+    }
+}
+// 邮箱
+function isEmail(){
+    var obj=document.getElementById("useEmail");
+    // var filter=/^\s*([A-Za-z0-9_-]+(\.\w+)*@(\w+\.)+\w{2,3})\s*$/;
+    if(/^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/.test(obj.value)){
+       obj.className="green_color";
+       return true;
+    }else{
+       obj.className="red_color";
+       obj.value="";
+       return false;
+    }
+}
+// QQ号码
+function isQQ(){
+    var obj=document.getElementById("useQQ");
+    if(/^\s*[0-9]{5,11}\s*$/.test(obj.value)){
+      obj.className="green_color";
+       return true;
+    }else{
+    obj.className="red_color";
+    obj.value="";
+       return false;
+    }
+}
+// 日期
+function isDate(){
+    var obj=document.getElementById("intdate");
+    if(!obj.value==""){
+      obj.className="green_color";
+       return true;
+    }else{
+    obj.className="red_color";
+       return false;
+    }
+}
+// 风格
+function isstyle(){
+    var obj=document.getElementById("styles");
+    if(!obj.value==""){
+      obj.className="green_color";
+       return true;
+    }else{
+    obj.className="red_color";
+       return false;
+    }
+}
+// 多行文本
+function moreTst(){
+    var obj=document.getElementById("moreText");
+    if(obj.value != ""){
+       return true;
+    }else{
+       return false;
+    }
+}
+// 整体验证
+function allinput(){
+    return isuseName()　&&  isEmail() && isTel() && isQQ() && isDate() && isstyle() && moreTst();
+}
+</script>
+
+<!-- 尾部开始 -->
+<div class="footer">
+  <div class="start">
+      <div class="left">
+      <span><a href="">客服电话&nbsp;:&nbsp;18336308675</a></span>
+      <p><a href="">咨询电话&nbsp;:&nbsp;0394-86395412&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0371-12658949</a></p>
+      <p><a href="">地址&nbsp;:&nbsp;上海市连园区89号</a></p>
+      <p><a href="">Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2000-2016XINHUANET.com&nbsp;All&nbsp;Rights&nbsp;Reserved</a></p>
+      <ul>
+        <li><a href="">QQ</a></li>
+        <li><a href="">微信</a></li>
+        <li><a href="">新浪</a></li>
+        <li><a href="">豆瓣</a></li>
+      </ul>
+    </div>  
+        <div class="right"><img src="images/logo_midila3.png"></div>
+  </div>
+</div>
+<!-- 尾部结束 -->
+</body>
+</html>
